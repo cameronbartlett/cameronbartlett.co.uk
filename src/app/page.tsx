@@ -6,12 +6,13 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Cameron Bartlett</title>
+                <title>Cameron Bartlett - Developer</title>
             </Head>
             <main className="grow w-full block relative">
                 <Header
-                    title="Welcome"
-                    description="Welcome to my little website here. It's not much right now but it will be... maybe."
+                    eyebrow="Developer"
+                    title="Cameron Bartlett"
+                    description="I'm Cameron, a software developer. I build things and write about what I'm learning as I go."
                 />
             </main>
         </>
