@@ -15,11 +15,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <link
-                    rel="icon"
-                    href="/favicon.svg"
-                    type="image/svg+xml"
-                ></link>
+                <link rel="icon" href="/globe.svg" type="image/svg+xml"></link>
             </head>
             <body
                 className={`antialiased min-h-screen flex flex-col items-start justify-start`}

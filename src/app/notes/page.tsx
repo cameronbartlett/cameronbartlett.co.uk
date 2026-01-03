@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Head from "next/head";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
-export const Home = () => {
+export const Notes = () => {
     return (
         <>
             <Head>
-                <title>Cameron Bartlett - Developer</title>
+                <title>Cameron Bartlett - Notes</title>
             </Head>
             <main className="grow w-full block relative">
                 <Navbar
@@ -15,13 +15,12 @@ export const Home = () => {
                     screenReaderTitle="Cameron Bartlett"
                 />
                 <Header
-                    eyebrow="Developer"
-                    title="Cameron Bartlett"
-                    description="I'm Cameron, a software developer. I build things and write about what I'm learning as I go."
+                    title="Notes"
+                    description="Notes, explanations, and things I didn't want to forget."
                 />
             </main>
         </>
     );
 };
 
-export default Home;
+export default Notes;
